@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.Menu;
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+        ImageView imageView = (ImageView) findViewById(R.id.imageView);
 
 
 
@@ -87,6 +89,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
 
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {

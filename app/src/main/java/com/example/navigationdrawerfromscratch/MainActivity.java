@@ -55,9 +55,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-        ImageView imageView = (ImageView) findViewById(R.id.imageView);
-
-
 
         //Diese Seite wird beim Starten der App angezeigt, hier: Rezeptvorschläge
         if (savedInstanceState == null) {

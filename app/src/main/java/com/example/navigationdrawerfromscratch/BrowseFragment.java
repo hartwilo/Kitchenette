@@ -22,8 +22,8 @@ public class BrowseFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_recipes, container, false);
 
-        ImageView imageView = (ImageView) view.findViewById(R.id.imageViewZurSuche);
-        imageView.setOnClickListener(new View.OnClickListener() {
+        ImageView lupe = (ImageView) view.findViewById(R.id.imageViewZurSuche);
+        lupe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                StartFragment startFragment =  new StartFragment();
@@ -31,9 +31,9 @@ public class BrowseFragment extends Fragment {
                 manager.beginTransaction().replace(R.id.fragment_container, startFragment, startFragment.getTag()).commit();
             }
         });
-
-        
         
         return view;
+
+
     }
 }

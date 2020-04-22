@@ -4,4 +4,13 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string name="Standard_Portionen_Anzahl">2</string>
+    <string name="Rezept_Rote_Bete">Einen Topf voll Salzwasser aufkochen lassen.
+        Rote Bete gründlich abwaschen und im Topf für circa 40 Minuten kochen lassen.
+        Anschließend abgießen, abtropfen lassen und schälen.
+        Rote Bete in hauchdünne Scheiben schneiden.
+        Schafskäse zerbröseln.
+        Anschließend Spinat, Feta, rote Bete und Walnusskerne auf den Tellern verteilen.
+        Aus Keimöl, Essig und Wasser ein Dressing rühren.
+        Dieses mit ausreichend Salz und Pfeffer abschmecken und über den Salat geben.</string>
 </resources>
